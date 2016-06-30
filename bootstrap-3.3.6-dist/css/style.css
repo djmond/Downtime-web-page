@@ -121,4 +121,13 @@ p{
 body{
 	margin: 0px;
 }
+.rwd-break{
+	display: none;
+}
+.rwd-break2{
+	display: none;
+}
+.rwd-break3{
+	display: none;
+}
 }	
