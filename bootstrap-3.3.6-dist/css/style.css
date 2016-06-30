@@ -40,9 +40,9 @@ p{
 	display: block;
 }
 /* Smartphones (portrait) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px){
 body{
 	margin: 0px;
 }
@@ -62,15 +62,29 @@ h1{
 }
 /* Smartphones (landscape) ----------- */
 @media only screen
-and (min-width : 321px)
-and (max-width: 750px) {
+and (min-width : 481px)
+and (max-width: 767px) {
 	body{
 		margin: 0px;
 	}
 .intrax{
-	height: 120px;
+	height: 110px;
 }
-
+h1{
+	font-size: 26px;
+}
+p{
+	font-size: 20px;
+}
+.rwd-break{
+	display: none;
+}
+.rwd-break2{
+	display: none;
+}
+.rwd-break3{
+	display: none;
+}
 }
 
 
@@ -103,5 +117,8 @@ p{
 }
 .baby{
 	height: 325px;
+}
+body{
+	margin: 0px;
 }
 }	
