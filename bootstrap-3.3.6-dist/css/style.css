@@ -74,10 +74,10 @@ and (max-width: 767px) {
 	height: 110px;
 }
 h1{
-	font-size: 26px;
+	font-size: 25px;
 }
 p{
-	font-size: 20px;
+	font-size: 21px;
 }
 .rwd-break{
 	display: none;
@@ -91,6 +91,9 @@ p{
 }
 p{
 	padding: 5px 5px 5px 5px;
+}
+.baby{
+	height: 260px;
 }
 
 
@@ -116,13 +119,13 @@ and (min-width : 1224px) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 .intrax{
-	height: 200px;
+	height: 140px;
 	}
 h1{
-	font-size: 35px;
+	font-size: 31px;
 }
 p{
-	font-size: 28px;
+	font-size: 25px;
 }
 .baby{
 	height: 325px;
