@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "miloweb";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/MiloWeb.eot");
+    src: url("./fonts/MiloWeb.eot?#iefix") format("embedded-opentype"), url("./fonts/MiloWeb.woff") format("woff"), url("./fonts/MiloWeb.ttf") format("truetype"), url("./fonts/MiloWeb.svg") format("svg");
+}
+@font-face {
+    font-family: "miloweblight";
+    font-style: normal;
+    font-weight: lighter;
+    src: url("./fonts/MiloWeb-Light.eot");
+    src: url("./fonts/MiloWeb-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/MiloWeb-Light.woff") format("woff"), url("./fonts/MiloWeb-Light.ttf") format("truetype"), url("./fonts/MiloWeb-Light.svg") format("svg");
+}
+@font-face {
+    font-family: "milowebbold";
+    font-style: normal;
+    font-weight: bold;
+    src: url("./fonts/MiloWeb-Bold.eot");
+    src: url("./fonts/MiloWeb-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/MiloWeb-Bold.woff") format("woff"), url("./fonts/MiloWeb-Bold.ttf") format("truetype"), url("./fonts/MiloWeb-Bold.svg") format("svg");
+}
+@font-face {
+    font-family: "milowebita";
+    font-style: italic;
+    font-weight: normal;
+    src: url("./fonts/MiloWeb-Ita.eot");
+    src: url("./fonts/MiloWeb-Ita.eot?#iefix") format("embedded-opentype"), url("./fonts/MiloWeb-Ita.woff") format("woff"), url("./fonts/MiloWeb-Ita.ttf") format("truetype"), url("./fonts/MiloWeb-Ita.svg") format("svg");
+}
+
+.bold, b, strong {
+  font-family: "milowebbold";
+  font-weight: normal;
+}
+
+.small-text-08 {
+  font-size: 0.8rem;
+}
+
+.right {
+  text-align: right;
+}
+
+i, em {
+  font-family: milowebita;
+  font-style: normal;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
