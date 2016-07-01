@@ -1,14 +1,15 @@
 
 html{
-	background-color: #c7cac6;
+	/*background-color: #c7cac6;*/
 	height: 100%;
 	box-sizing: border-box;
+	background-image: url("boostrap-3.3.6-dist/img/conrete_seamless.png");
 }
 h1{
 	color:#000000;
 	font-size: 36px;
 	font-weight: bold;
-	font-family: MiloWeb
+	font-family: "miloweb", Sans-serif;
 }
 body {
   position: relative;
@@ -17,7 +18,7 @@ body {
  }
 p{
 	font-size: 30px;
-	font-family: MiloWeb
+	font-family: "miloweb", Sans-serif;
 
 
 }
@@ -50,8 +51,7 @@ body{
 	margin: 0px;
 }
 p{
-	font-size: 18px;
-
+	font-size: 17px;
 }
 .intrax{
 	height: 110px;
@@ -109,8 +109,14 @@ and (min-width : 1224px) {
 	.rwd-break3{
 		display: none;
 	}
+	h1{
+		padding: 20px 0px 0px 0px;
+	}
 	p{
-		padding: 20px 20px 20px 20px;
+		padding: 20px 20px 50px 20px;
+	}
+	.baby{
+		height: 310px;
 	}
 	
 }
@@ -123,9 +129,11 @@ and (max-device-width : 1024px) {
 	}
 h1{
 	font-size: 31px;
+	padding: 30px 0px 0px 0px;
 }
 p{
-	font-size: 25px;
+	font-size: 26px;
+	padding: 20px 0px 30px 0px;
 }
 .baby{
 	height: 325px;
