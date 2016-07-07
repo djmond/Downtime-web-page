@@ -1,10 +1,9 @@
-
 html{
-	/*background-color: #c7cac6;*/
-	height: 100%;
-	box-sizing: border-box;
-	background-image: url("boostrap-3.3.6-dist/img/conrete_seamless.png");
-}
+ background-color: #c7cac6;
+ height: 100%;
+ box-sizing: border-box;
+ background-image: url(../img/concrete.png);
+ }
 h1{
 	color:#000000;
 	font-size: 36px;
@@ -12,15 +11,21 @@ h1{
 	font-family: "miloweb", Sans-serif;
 }
 body {
+background-image: url("img/concrete.png");
   position: relative;
   margin: 0px 80px;
   min-height: 100%;
  }
+ #box {
+ 	background-color: #7a7a52;
+ 	width: 100%;
+ 	height: 20em;
+ 	position: relative;
+ 	top: 120px;
+ }
 p{
 	font-size: 30px;
 	font-family: "miloweb", Sans-serif;
-
-
 }
 .text-center{
 	text-align: center;
@@ -31,13 +36,12 @@ p{
 	margin: auto;
 	padding: 1.5em;
 	height: 340px;
-
 }
 .intrax{
 	display: block;
 	margin: auto;
 	height: 150px;
-	
+	margin-top: 30px;
 
 }
 .rwd-break{
@@ -101,9 +105,6 @@ p{
 @media only screen
 and (min-width : 1224px) {
 	.rwd-break{
-		display: none;
-	}
-	.rwd-break2{
 		display: none;
 	}
 	.rwd-break3{
