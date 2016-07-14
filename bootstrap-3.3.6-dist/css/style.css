@@ -17,7 +17,7 @@ background-image: url("img/concrete.png");
   min-height: 100%;
  }
  #box {
- 	background-color: #a3a375;
+ 	background-color: #b8b894;
  	width: 100%;
  	
  
@@ -49,22 +49,27 @@ body{
 	margin: 0px;
 }
 p{
-	font-size: 17px;
+	font-size: 28px;
 	margin-top: 32px;
 }
 .intrax{
 	height: 110px;
-	margin-top: 0px;
 	}
 h1{
-	font-size: 24px;
+	font-size: 26px;
 	}
 #box{
-	height: 30em;
+	height: 35em;
 	position: relative;
-	top: 6em;
+	bottom: 2em;
 
 }	
+#box-p{
+	position: relative;
+	top: 1.5em;
+	text-align: center;
+	font-size: 28px;
+}
 }
 /* Smartphones (landscape) ----------- */
 @media only screen
@@ -83,29 +88,25 @@ p{
 	font-size: 24px;
 	margin-top: 5px;
 }
-.rwd-break{
-	display: none;
+#box-p{
+	text-align: center;
+	font-size: 24px;
+	position: relative;
+	bottom: 12px;
 }
-.rwd-break2{
-	display: none;
+	.break-1{
+		display: none;
+	}
+	#box{
+		background: none;
+	}
+
 }
-.rwd-break3{
-	display: none;
-}
-}
-#box{
-	height: 40em;
-}
+
 
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {
-	.rwd-break{
-		display: none;
-	}
-	.rwd-break3{
-		display: none;
-	}
 	p{
 		padding: 60px 20px 0px 20px;
 	}
@@ -128,30 +129,25 @@ and (max-device-width : 1024px) {
 		margin:0px;
 	}
 .intrax{
-	height: 140px;
+	height: 155px;
 	}
 h1{
-	font-size: 31px;
+	font-size: 40px;
 }
 p{
-	font-size: 28px;
+	font-size: 40px;
 	padding: 50px 30px 30px 30px;
 }
 body{
 	margin: 0px;
 }
 #box{
-	height: 36em;
+	height: 50em;
 	position: relative;
-	top: 8em;
+	bottom: 1.5em;
 }
-.rwd-break{
-	display: none;
+#box-p{
+	text-align: center;
+	font-size: 40px;
 }
-.rwd-break2{
-	display: none;
 }
-.rwd-break3{
-	display: none;
-}
-}	
