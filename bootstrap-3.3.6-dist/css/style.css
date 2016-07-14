@@ -108,16 +108,24 @@ p{
 @media only screen
 and (min-width : 1224px) {
 	p{
-		padding: 60px 20px 0px 20px;
+		padding: 40px 20px 0px 20px;
+		font-size: 36px
 	}
 	.intrax{
-		margin-top: 40px;
+		margin-top: 30px;
 	}
 	#box{
-	height: 26em;
+	height: 39em;
  	position: relative;
- 	top: 8em;
+ 	top: 1em;
 
+ 	}
+ 	#box-p{
+ 		text-align: center;
+
+ 	}
+ 	.break-1{
+ 		display: none;
  	}
 	
 }
