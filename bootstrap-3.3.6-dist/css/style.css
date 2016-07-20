@@ -16,30 +16,21 @@ background-image: url("img/concrete.png");
   margin: 0px 80px;
   min-height: 100%;
  }
- #box {
+ .box-p{
  	background-color: #b8b894;
  	width: 100%;
- 	
+ 	text-align: center;
  
  }
 p{
-	font-size: 32px;
 	font-family: "miloweb", Sans-serif;
-
-}
-.text-center{
-	text-align: center;
-	
 }
 .intrax{
 	display: block;
 	margin: auto;
-	height: 150px;
+	text-align: center;
 	
 
-}
-.rwd-break{
-	display: block;
 }
 /* Smartphones (portrait) ----------- */
 @media only screen 
@@ -107,25 +98,30 @@ p{
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {
-	p{
-		padding: 40px 20px 0px 20px;
-		font-size: 36px
-	}
 	.intrax{
 		margin-top: 30px;
+		height: 180px;
+		text-align: center;
+		display: block;
+		margin: auto;
 	}
-	#box{
-	height: 39em;
- 	position: relative;
- 	top: 1em;
+	h1{
+		font-size: 46px;
+		text-align: center;
+		padding-bottom: 25px;
+	}
+	.p1{
+		text-align: center;
+		font-size: 40px;
+		padding: 40px 20px 0px 20px;
+	}
 
- 	}
- 	#box-p{
+ 	.box-p{
+ 		font-size: 45px;
  		text-align: center;
-
- 	}
- 	.break-1{
- 		display: none;
+ 		position: relative;
+ 		top: 130px;
+ 		padding: 120px 130px 120px 130px;
  	}
 	
 }
