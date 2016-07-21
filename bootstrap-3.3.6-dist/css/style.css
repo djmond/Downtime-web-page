@@ -9,6 +9,7 @@ h1{
 	font-size: 38px;
 	font-weight: bold;
 	font-family: "miloweb", Sans-serif;
+	text-align: center;
 }
 body {
 background-image: url("img/concrete.png");
@@ -22,6 +23,12 @@ background-image: url("img/concrete.png");
  	text-align: center;
  
  }
+ .p1{
+ 	text-align: center;
+ }
+ .box-p{
+ 	text-align: center;
+ }
 p{
 	font-family: "miloweb", Sans-serif;
 }
@@ -29,8 +36,6 @@ p{
 	display: block;
 	margin: auto;
 	text-align: center;
-	
-
 }
 /* Smartphones (portrait) ----------- */
 @media only screen 
@@ -39,27 +44,20 @@ and (max-width : 480px){
 body{
 	margin: 0px;
 }
-p{
-	font-size: 28px;
-	margin-top: 32px;
-}
 .intrax{
-	height: 110px;
+	height: 80px;
+	display: block;
+	margin: auto;
+	text-align: center;
 	}
 h1{
-	font-size: 26px;
+	font-size: 12px;
 	}
-#box{
-	height: 35em;
-	position: relative;
-	bottom: 2em;
-
-}	
-#box-p{
-	position: relative;
-	top: 1.5em;
+	
+.box-p{
+	
 	text-align: center;
-	font-size: 28px;
+	font-size: 8px;
 }
 }
 /* Smartphones (landscape) ----------- */
@@ -99,30 +97,28 @@ p{
 @media only screen
 and (min-width : 1224px) {
 	.intrax{
-		margin-top: 30px;
 		height: 180px;
 		text-align: center;
 		display: block;
 		margin: auto;
 	}
 	h1{
-		font-size: 46px;
+		font-size: 3.7em;
 		text-align: center;
-		padding-bottom: 25px;
+		padding-bottom: .4em;
 	}
 	.p1{
 		text-align: center;
-		font-size: 40px;
-		padding: 40px 20px 0px 20px;
+		font-size: 3em;
+		padding: 1em .5em 0em .5em;
 	}
 
  	.box-p{
- 		font-size: 45px;
+ 		font-size: 3.4em;
  		text-align: center;
  		position: relative;
- 		top: 130px;
- 		padding: 120px 130px 120px 130px;
- 	}
+ 		top: 2.4em;
+ 		padding: 2.5em;
 	
 }
 /*Tablets and iPads -------------*/
@@ -132,26 +128,25 @@ and (max-device-width : 1024px) {
 	body{
 		margin:0px;
 	}
-.intrax{
-	height: 155px;
-	}
 h1{
 	font-size: 40px;
+
 }
-p{
+.p1{
 	font-size: 40px;
 	padding: 50px 30px 30px 30px;
+
 }
 body{
 	margin: 0px;
 }
-#box{
-	height: 50em;
-	position: relative;
-	bottom: 1.5em;
-}
-#box-p{
-	text-align: center;
+.box-p{
 	font-size: 40px;
+}
+.intrax{
+	display: block;
+	margin: auto;
+	text-align: center;
+	height: 10px;
 }
 }
